@@ -3,10 +3,10 @@
 # LINUX (DEBIAN-UBUNTU)
 ## PHP 7.X-fpm
   ### Installation php7.X-fpm
-   - Ubuntu:
+   #### Ubuntu:
     - sudo add-apt-repository ppa:ondrej/php
     - sudo apt update
-   - Debian:
+   #### Debian:
     - sudo apt install apt-transport-https lsb-release ca-certificates
     - sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
     - sudo sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
